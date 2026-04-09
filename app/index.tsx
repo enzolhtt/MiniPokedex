@@ -1,10 +1,5 @@
-import { View } from 'react-native';
+import { Redirect } from 'expo-router';
 
-
-export default function HomeScreen() {
-  return (
-    <View>
-      Home
-    </View>
-  );
+export default function Index() {
+  return <Redirect href="/ListScreen" />;
 }
